@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{  
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+        
+}
+
+body{
+width: 100vw;
+height: 100vh;
+background:white;
+display: flex;
+/*Eixo x*/
+justify-content: center;
+/*Eixo*/
+align-items: center;
+ }
+
+
+.card {
+    background-color: rgb(255, 252, 205);
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0px 10px 40px -12px;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction:inline;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    border: 35px;
+    
+
+}   
+.textfield > i{
+    font-size: 35px;
+    border: black;
+    }
+
+
+h1{
+    color:black;
+    font-weight: 800;
+
+}
+
+.textfield > input{
+    border: 2px solid transparent;
+    border-radius: 0px;
+    font-size: 17px;
+    margin: 1px 1px;
+    background-color: rgb( 172, 165, 166);
+    color:black
+    font-size: 12pt;
+}
+
+.textfield > input::placeholder{
+    color: black;
+}
+
+
+
+
+button {
+    width: 100%;
+    background-color: #77FFC0;
+    color: #2b134b;
+    padding: 6px;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: 800;
+    outline: none;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000052;
+}
+
+button:hover {
+    transition: background 0.5s;
+    background: rgb(64, 119, 190);    
+
+}
+
+
+
+
