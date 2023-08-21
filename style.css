@@ -11,13 +11,13 @@ font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
 body{
 width: 100vw;
 height: 100vh;
-background:white;
+background:rgb(52, 180,20);
 display: flex;
 /*Eixo x*/
 justify-content: center;
 /*Eixo*/
 align-items: center;
- }
+}
 
 
 .card {
